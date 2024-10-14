@@ -1,3 +1,10 @@
+## 0.0.25
+
+### Enhancements
+
+* **Qdrant destination to v2**
+
+
 ## 0.0.24
 
 ### Enhancements
