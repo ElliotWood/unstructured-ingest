@@ -2,7 +2,7 @@
 
 ### Enhancements
 
-* **Qdrant destination to v2**
+* **Qdrant destination to v2**      
 
 
 ## 0.0.26-dev4
