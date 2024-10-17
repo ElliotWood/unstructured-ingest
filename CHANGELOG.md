@@ -11,6 +11,9 @@
 
 * **Move default API URL parameter value to serverless API**
 * **Add check that access config always wrapped in Secret**
+* **Add togetherai embedder support**
+* **Refactor sqlite and postgres to be distinct connectors to support better input validation**
+* **Added MongoDB source V2 connector**
 
 ### Fixes
 
