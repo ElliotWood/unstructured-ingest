@@ -1,3 +1,31 @@
+## 0.1.0
+
+### Enhancements
+
+* **Move default API URL parameter value to serverless API**
+* **Add check that access config always wrapped in Secret**
+* **Add togetherai embedder support**
+* **Refactor sqlite and postgres to be distinct connectors to support better input validation**
+* **Added MongoDB source V2 connector**
+* **Support optional access configs on connection configs**
+* **Refactor databricks into distinct connectors based on auth type**
+
+### Fixes
+
+**Fix Notion Ingestion** Fix the Notion source connector to work with the latest version of the Notion API (added `in_trash` properties to `Page`, `Block` and `Database`).
+
+## 0.0.25
+
+### Enhancements
+
+* **Support pinecone namespace on upload**
+* **Migrate Outlook Source Connector to V2**
+* **Support for Databricks Volumes source connector**
+
+### Fixes
+
+* **Update Sharepoint Creds and Expected docs**
+
 ## 0.0.24
 
 ### Enhancements
@@ -15,8 +43,11 @@
 ### Enhancements
 
 * **Add documentation for developing sources/destinations**
+
 * **Leverage `uv` for pip compile**
+
 * **Use incoming fsspec data to populate metadata** Rather than make additional calls to collect metadata after initial file list, use connector-specific data to populate the metadata. 
+
 * **Drop langchain as dependency for embedders**
 
 ## 0.0.21
