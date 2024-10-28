@@ -1,15 +1,35 @@
-## 0.1.2
+## 0.2.1-dev2
 
-### Enchancements
+### Enhancements
 
-* **Added OneDrive destination connector**
+* **Add singlestore source connector**
+* **Astra DB V2 Source Connector** Create a v2 version of the Astra DB Source Connector.
 
-## 0.1.1-dev1
+### Fixes
+
+* **Fix Databricks Volumes file naming** Add .json to end of upload file.
+
+## 0.2.0
+
+### Enhancements
+
+* **Add snowflake source and destination connectors**
+* **Migrate Slack Source Connector to V2**
+* **Migrate Slack Source Connector to V2**
+* **Add Delta Table destination to v2**
+* **Migrate Slack Source Connector to V2**
+
+## 0.1.1
 
 ### Enhancements
 
 * **Update KDB.AI vectorstore integration to 1.4**
 * **Add sqlite and postgres source connectors**
+* **Add sampling functionality for indexers in fsspec connectors**
+
+### Fixes
+
+* **Fix Databricks Volumes destination** Fix for filenames to not be hashes.
 
 ## 0.1.0
 
