@@ -4,10 +4,11 @@
 
 * **Added V2 OneDrive Destination connector and it's integration test**
 
-## 0.2.1-dev2
+## 0.2.1
 
 ### Enhancements
 
+* **File system based indexers return a record display name**
 * **Add singlestore source connector**
 * **Astra DB V2 Source Connector** Create a v2 version of the Astra DB Source Connector.
 
