@@ -1,3 +1,9 @@
+## 0.2.2-dev1
+
+### Enhancements
+
+* **Added V2 OneDrive Destination connector and it's integration test**
+
 ## 0.2.1-dev2
 
 ### Enhancements
